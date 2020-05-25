@@ -4,8 +4,6 @@
  */
 class UrlValidator
 {
-    //const PATTERN = '/^http:\/\/(([a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)(\.[a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)+)/u';
-    //const PATTERN = '/^http:\/\/(([a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)(\.[a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)+)(\/[a-zA-Z0-9а-яА-ЯёЁ_-]*)*$/u';
     const PATTERN = '/^http:\/\/(([a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)(\.[a-zA-Z0-9а-яА-ЯёЁ][a-zA-Z0-9а-яА-ЯёЁ_-]*)+)(\/[a-zA-Z0-9а-яА-ЯёЁ_-]*)*$/u';
     
     public function CheckUrl(string $url):bool
